@@ -1,0 +1,353 @@
+[
+  {
+    "id": 1,
+    "Name": "Nâng cấp Adobe All App – Creative Cloud 12 tháng",
+    "Price1": "1090000",
+    "MRP1": "14625240",
+    "Tag": "Làm việc",
+    "Category": "Adobe",
+    "Img": "img/Adobe/Adobe-chinh-chu-510x510.jpeg.webp",
+    "link": "mua-adobe-ban-quyen-creative-cloud-all-app.html"
+  },
+  {
+    "id": 2,
+    "Name": "Nâng cấp bộ nhớ Google One chính chủ 12 tháng",
+    "Price1": "299000",
+    "MRP1": "825240",
+    "Tag": "Làm việc",
+    "Category": "Google",
+
+    "Img": "img/google/Google-One-1-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 3,
+    "Name": "Nâng cấp Tài khoản Youtube Premium chính chủ",
+    "Price1": "129000",
+    "MRP1": "237000",
+    "Tag": "Giải trí",
+    "Category": "Google",
+
+    "Img": "img/google/Image-product-5-Youtube-247x247.png.webp",
+    "link": "mua-youtube-premium.html"
+  },
+  {
+    "id": 4,
+    "Name": "Nâng cấp Microsoft 365 chính chủ",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Làm việc",
+    "Category": "Microsoft",
+
+    "Img": "img/Microsoft/Microsoft-365-Family-247x247.png.webp",
+    "link": "microsoft-365-family-6-users-1tb-onedrive.html"
+  },
+  {
+    "id": 5,
+    "Name": "Key Window 11 Pro Retail",
+    "Price1": "9299000",
+    "MRP1": "599000",
+    "Tag": "Key kích hoạt",
+    "Category": "Microsoft",
+
+    "Img": "img/Microsoft/Window-11-1-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 6,
+    "Name": "Key Window 10 Pro Retail",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Key kích hoạt",
+    "Category": "Microsoft",
+
+    "Img": "img/Microsoft/window-10-1-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 7,
+    "Name": "Tài khoản Netflix Premium",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Giải trí",
+    "Category": "Netflix",
+    "Img": "img/giaitri/Netflix-247x247.jpg.webp",
+    "link": "tai-khoan-netflix-premium.html"
+  },
+  {
+    "id": 8,
+    "Name": "Nâng cấp tài khoản Spotify Premium hàng chính chủ",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Giải trí",
+    "Category": "Spotify",
+
+    "Img": "img/Spotify/Spotify-2-247x247.png.webp",
+    "link": "mua-spotify-premium.html"
+  },
+  {
+    "id": 9,
+    "Name": "Nâng cấp Spotify Family Premium chính chủ",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Giải trí",
+    "Category": "Spotify",
+
+    "Img": "img/Spotify/Spotify-Family-247x247.png.webp",
+    "link": "nang-cap-spotify-family-premium-chinh-chu.html"
+  },
+  {
+    "id": 10,
+    "Name": "Nâng cấp tài Khoản Canva Education",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Làm việc",
+    "Category": "Canvas",
+    "Img": "img/Canvas/Canva-Education-247x247.png.webp"
+  },
+  {
+    "id": 11,
+    "Name": "Nâng cấp bộ nhớ Dropbox Professional 3TB 12 tháng chính chủ",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Làm việc",
+    "Category": "Dropbox",
+    "Img": "img/Dropbox/Dropbox-247x247.webp",
+    "link": ""
+  },
+  {
+    "id": 12,
+    "Name": "Tài khoản IPVanish (12 Tháng)",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Bảo mật",
+    "Category": "Vpns",
+    "Img": "img/vpns/Tai-khoan-IPVanish-12-Thang-2-247x247.png",
+    "link": ""
+  },
+  {
+    "id": 13,
+    "Name": "Tài khoản VyprVPN (12 Tháng)",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Bảo mật",
+    "Category": "Vpns",
+    "Img": "img/vpns/45-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 14,
+    "Name": "Tài khoản NordVPN 12 tháng",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Bảo mật",
+    "Category": "Vpns",
+    "Img": "img/vpns/Image-product-6-NordVPN-247x247.png.webp",
+    "link": ""
+  },
+
+  {
+    "id": 15,
+    "Name": "Tài khoản Tunnelbear VPN 12 tháng",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Bảo mật",
+    "Category": "Vpns",
+    "Img": "img/vpns/3-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 16,
+    "Name": "Tài khoản Panda VPN 12 tháng",
+    "Price1": "299000",
+    "MRP1": "599000",
+    "Tag": "Bảo mật",
+    "Category": "Vpns",
+    "Img": "img/vpns/Tai-khoan-Panda-VPN-12-thang-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 17,
+    "Name": "Nâng cấp Autodesk All App chính chủ | 12 tháng",
+    "Price1": "1,200,000đ",
+    "MRP1": "59,000,000",
+    "Tag": "Làm việc",
+    "Category": "Autodesk",
+    "Img": "img/upgrade/AUTODESK-247x247.jpg.webp",
+    "link": ""
+  },
+
+  {
+    "id": 18,
+    "Name": "Nâng cấp ClipTV gói Cơ Bản 12 tháng",
+    "Price1": "149000",
+    "MRP1": "499000",
+    "Tag": "Giải trí",
+    "Category": "FPT",
+    "Img": "img/upgrade/clip-tv-12th-247x247.png.webp",
+    "link": ""
+  },
+
+  {
+    "id": 19,
+    "Name": "Nâng cấp tài khoản FPT Play chính chủ",
+    "Price1": "499000",
+    "MRP1": "1799000",
+    "Tag": "Giải trí",
+    "Category": "FPT",
+    "Img": "img/upgrade/Fpt-Play-247x247.webp",
+    "link": ""
+  },
+
+  {
+    "id": 20,
+    "Name": "Nâng cấp tài khoản Disney Plus chính chủ",
+    "Price1": "599000",
+    "MRP1": "1152000",
+    "Tag": "Giải trí",
+    "Category": "",
+    "Img": "img/upgrade/Disney-Upgrade-247x247.png.webp",
+    "link": ""
+  },
+
+  {
+    "id": 21,
+    "Name": "Nâng cấp Tài khoản Duolingo Super 12 tháng – cách phổ biến nhất trên thế giới để học ngôn ngữ",
+    "Price1": "299000",
+    "MRP1": "1849000",
+    "Tag": "Học tập",
+    "Category": "",
+    "Img": "img/upgrade/Duolingo-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 22,
+    "Name": "Nâng cấp tài khoản Zoom Pro chính chủ 1 tháng",
+    "Price1": "199000",
+    "MRP1": "249000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Nang-cap-tai-khoan-Zoom-Pro-chinh-chu-1-thang-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 23,
+    "Name": "Nâng cấp tài khoản HBO Max chính chủ",
+    "Price1": "599000",
+    "MRP1": "2160000",
+    "Tag": "Giải trí",
+    "Category": "",
+    "Img": "img/upgrade/Upgrade-HBO-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 24,
+    "Name": "Tài khoản Calm (12 Tháng)",
+    "Price1": "259000",
+    "MRP1": "9199770",
+    "Tag": "Giải trí",
+    "Category": "",
+    "Img": "img/upgrade/calm-12th-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 25,
+    "Name": "Tài Khoản Grammarly Premium 12 tháng – Kiểm tra chính tả, ngữ pháp Tiếng Anh",
+    "Price1": "450000",
+    "MRP1": "6900000",
+    "Tag": "Học tập",
+    "Category": "",
+    "Img": "img/upgrade/Image-product-9-Grammarly-upgrade-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 26,
+    "Name": "Nâng cấp Tidal Hifi Plus chính chủ – 12 tháng",
+    "Price1": "799000",
+    "MRP1": "5517240",
+    "Tag": "Giải trí",
+    "Category": "",
+    "Img": "img/upgrade/14-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 27,
+    "Name": "Nâng cấp tài khoản Linkedin Premium Career 6 tháng",
+    "Price1": "990000",
+    "MRP1": "5760000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Image-product-3-Linkedin-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 28,
+    "Name": "Nâng cấp tài khoản Yousician Premium+ 12 tháng chính chủ",
+    "Price1": "590000",
+    "MRP1": "929000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Yousician-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 29,
+    "Name": "Nâng cấp Parallels Desktop 18 Standard Edition (Vĩnh viễn)",
+    "Price1": "1290000",
+    "MRP1": "2999000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Parallels-Standard-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 30,
+    "Name": "Nâng cấp Parallels Desktop 18 Pro Edition 1 năm",
+    "Price1": "1290000",
+    "MRP1": "28300000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Parallels-Pro-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 31,
+    "Name": "Nâng cấp Discord Nitro 3 tháng + 2 Sever Boosting",
+    "Price1": "109000",
+    "MRP1": "349000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Nitro-Discord-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 32,
+    "Name": "Nâng cấp VTVCab ON 24 tháng + 3 tháng ON Cao cấp",
+    "Price1": "249000",
+    "MRP1": "1069000",
+    "Tag": "Giải trí",
+    "Category": "",
+    "Img": "img/upgrade/VTV-Cabon-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 33,
+    "Name": "Nâng cấp Quizlet Plus for teacher 12 tháng",
+    "Price1": "599000",
+    "MRP1": "827770",
+    "Tag": "Học tập",
+    "Category": "",
+    "Img": "img/upgrade/Image-product-4-Quizlet-Teacher-247x247.png.webp",
+    "link": ""
+  },
+  {
+    "id": 34,
+    "Name": "Nâng cấp tài khoản Linkedin Premium Business 12 tháng",
+    "Price1": "2490000",
+    "MRP1": "15050000",
+    "Tag": "Làm việc",
+    "Category": "",
+    "Img": "img/upgrade/Image-product-3-Linkedin-247x247.png.webp",
+    "link": ""
+  }
+]

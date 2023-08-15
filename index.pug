@@ -1,0 +1,340 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet')
+        link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer")
+        link(rel="stylesheet", href="assets/css/app.css")
+        title Website 
+    body 
+        .wapper 
+            //- header
+            header.header
+                //- navbar
+                .header--content
+                    nav 
+                        h5 Shop 
+                            span Vip 
+                            | ...
+
+                    //- search box
+                    .control-bx
+                        button(type="button").menu-btn-mb-tb
+                            | <i class="fa-solid fa-bars"></i> Tùy chọn
+                        .search-bx
+                            input#search-input(type="search" , name="", placeholder="Nhập từ khóa tìm kiếm..")
+                            button#btn_search
+                                i.search-icon(class="fa-solid fa-magnifying-glass")
+                    .control-bx
+                        ul.navbar-list 
+                            li
+                                button
+                                    img(src="img/logo_icon/adobe.png", alt="")
+                                    span Adobe
+                            li
+                                button
+                                    img(src="img/logo_icon/Google__G__Logo.svg.webp", alt="")
+                                    span Google
+                            l
+                                button
+                                    img(src="img/logo_icon/microsoft_318-566086.webp", alt="")
+                                    span Microsoft
+                            li
+                                button
+                                    img(src="img/logo_icon/netflix.png.webp", alt="")
+                                    span Netflix
+                            li
+                                button
+                                    img(src="img/logo_icon/spotify.svg", alt="")
+                                    span Spotify
+                            li
+                                button
+                                    img(src="img/logo_icon/gg.svg", alt="")
+                                    span Anti Virus
+                            li
+                                button
+                                    img(src="img/logo_icon/vpn.svg", alt="")
+                                    span VPNs
+                            li
+                                button
+                                    img(src="img/logo_icon/Canva_icon_2021.svg-150x150.png.webp", alt="")
+                                    span Canva 
+                            li
+                                button
+                                    img(src="img/logo_icon/1101px-Dropbox_Icon.svg-150x150.png", alt="")
+                                    span Dropbox
+            //- main content bx
+            main 
+                section.wapper-title-sortby
+                    .title-sortby
+                            h4 Account
+                            .select_sortby 
+                                button#sortby_btn
+                                    h5 Sort By 
+                                    | <i class="fa-solid fa-chevron-down"></i>
+                                .sortby-opt
+                                    li#btn_newest Mới nhất 
+                                    li#btn_all All
+                                    li#btn_low Giá thấp 
+                                    li#btn_hight Giá cao
+                section.content-main 
+                    //- navbar
+                    aside.navbar-control
+                        h4 
+                            | <i class="fa-solid fa-filter"></i> Danh mục sản phẩm
+                        ul.navbar-ct-bx 
+                            li
+                                button#btn-baomat
+                                    i(class="btn-icon fa-solid fa-shield-halved")
+                                    span Bảo mật
+                            li
+                                button#btn-hoctap 
+                                    i(class="btn-icon fa-solid fa-graduation-cap")
+                                    span Học Tập 
+                            li
+                                button#btn-giaitri 
+                                    i(class="btn-icon fa-solid fa-gamepad")
+                                    span  Giải trí
+                            li
+                                button#btn-lamviec 
+                                    i(class="btn-icon fa-solid fa-laptop")
+                                    span Làm việc
+                            li
+                                button#btn-keykichhoat 
+                                    i(class="btn-icon bx bx-key")
+                                    span Key kích hoạt 
+                            li
+                                button#btn-nangcap 
+                                    i(class="btn-icon fa-solid fa-arrow-up-right-dots")
+                                    span Nâng cấp 
+                            li
+                                button#btn-suckhoe 
+                                    i(class="btn-icon fa-solid fa-hand-holding-heart")
+                                    span Sức khỏe 
+                            li
+                                button#btn-taikhoang 
+                                    i(class="btn-icon fa-solid fa-users")
+                                    span Tài khoản
+                        //- h4 
+                        //-     | <i class="fa-solid fa-filter-circle-dollar"></i> Giá bán
+                        //- .input-price
+                        //-     .input-price1
+                        //-         input(type="range", name="" ,min = "1" max="100")
+                        //-         i.input-price1-icon(class="fa-solid fa-circle-chevron-left")
+                        //-     .input-price1
+                        //-         input(type="range", name="" ,min = "1" max="100")
+                        //-         i.input-price1-icon(class="fa-solid fa-circle-chevron-right")
+                        
+                    //- content bx
+                    
+                    section.account-bx
+                        section.main-accout-bx
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6 
+                            //-                 i(class="fa-solid fa-tag") 
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6 
+                            //-                 i(class="fa-solid fa-tag") 
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6 
+                            //-                 i(class="fa-solid fa-tag") 
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6
+                            //-                 i(class="fa-solid fa-tag") 
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6  
+                            //-                 i(class="fa-solid fa-tag") 
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Tài khoản Netflix Premium
+                            //-         .price 
+                            //-             .price-item
+                            //-                 h5 2,990,000đ
+                            //-                 h5 
+                            //-                     del 1,599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-             .price-item
+                            //-                 h5 299,000đ
+                            //-                 h5 
+                            //-                     del 599,000đ
+                            //-         .color_tag  
+                            //-             h6 
+                            //-                 i(class="fa-solid fa-tag")
+                            //-             h6 Giải trí
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+                            //- a(href="").card
+                            //-     img(src="img/giaitri/Netflix-247x247.jpg.webp", alt="")
+                            //-     .card-content 
+                            //-         h5.card-title Nike Air Force 1 Mid QS 
+                            //-         p Men's shoes 
+                            //-         .price 
+                            //-             h5 Vnd299
+                            //-             h5 MRP: 
+                            //-                 del Vnd599
+                            //-         .color_tag  
+                            //-             h6 color1 
+                            //-             h6 sustainable Materals
+            //- footer
+            footer
+                .container
+                    p
+                    | &copy; 2016 |
+                    i.fa.fa-value(aria-hidden='true') &nbsp;
+                    a(href='#') View Source
+        script(src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js") 
+        script(src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js")
+        script(src="./js/app.js") 

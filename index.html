@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <!-- <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+      rel="stylesheet"
+    /> -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <title>Website</title>
+  </head>
+  <body>
+    <div class="wapper">
+      <header class="header">
+        <div class="header--content">
+          <nav></nav>
+          <div class="control-bx">
+            <!-- <button class="menu-btn-mb-tb" type="button">
+              <i class="fa-solid fa-bars"></i> Tùy chọn
+            </button> -->
+            <h5 class="Logo-icon">Dark<span>Green</span>.net</h5>
+            <div class="search-bx">
+              <input
+                id="search-input"
+                type="search"
+                name=""
+                placeholder="Nhập từ khóa tìm kiếm.."
+              />
+              <button id="btn_search">
+                <i class="search-icon fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+          </div>
+          <div class="control-bx">
+            <ul class="navbar-list">
+              <li>
+                <button id="btn_adobe">
+                  <img src="img/logo_icon/adobe.png" alt="" /><span>Adobe</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn_google">
+                  <img
+                    src="img/logo_icon/Google__G__Logo.svg.webp"
+                    alt=""
+                  /><span>Google</span>
+                </button>
+              </li>
+
+              <button id="btn_microsoft">
+                <img
+                  src="img/logo_icon/microsoft_318-566086.webp"
+                  alt=""
+                /><span>Microsoft</span>
+              </button>
+
+              <li>
+                <button id="btn_netflix">
+                  <img src="img/logo_icon/netflix.png.webp" alt="" /><span
+                    >Netflix</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button id="btn_spotify">
+                  <img src="img/logo_icon/spotify.svg" alt="" /><span
+                    >Spotify</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button id="btn_antivirus">
+                  <img src="img/logo_icon/gg.svg" alt="" /><span
+                    >Anti Virus</span
+                  >
+                </button>
+              </li>
+              <li>
+                <button id="btn_vpns">
+                  <img src="img/logo_icon/vpn.svg" alt="" /><span>VPNs</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn_canvas">
+                  <img
+                    src="img/logo_icon/Canva_icon_2021.svg-150x150.png.webp"
+                    alt=""
+                  /><span>Canvas</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn_dropbox">
+                  <img
+                    src="img/logo_icon/1101px-Dropbox_Icon.svg-150x150.png"
+                    alt=""
+                  /><span>Dropbox</span>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="slider"></section>
+        <section class="wapper-title-sortby">
+          <div class="title-sortby">
+            <h4>Account</h4>
+            <div class="select_sortby">
+              <button id="sortby_btn">
+                <h5>Sort By</h5>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button>
+              <div class="sortby-opt">
+                <li id="btn_newest">Mới nhất</li>
+                <li id="btn_all">All</li>
+                <li id="btn_low">Giá thấp</li>
+                <li id="btn_hight">Giá cao</li>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="content-main">
+          <aside class="navbar-control">
+            <h4><i class="fa-solid fa-filter"></i> Danh mục sản phẩm</h4>
+            <ul class="navbar-ct-bx">
+              <li>
+                <button id="btn-baomat">
+                  <i class="btn-icon fa-solid fa-shield-halved"></i
+                  ><span>Bảo mật</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-hoctap">
+                  <i class="btn-icon fa-solid fa-graduation-cap"></i
+                  ><span>Học Tập </span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-giaitri">
+                  <i class="btn-icon fa-solid fa-gamepad"></i
+                  ><span> Giải trí</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-lamviec">
+                  <i class="btn-icon fa-solid fa-laptop"></i
+                  ><span>Làm việc</span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-keykichhoat">
+                  <i class="btn-icon bx bx-key"></i><span>Key kích hoạt </span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-nangcap">
+                  <i class="btn-icon fa-solid fa-arrow-up-right-dots"></i
+                  ><span>Nâng cấp </span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-suckhoe">
+                  <i class="btn-icon fa-solid fa-hand-holding-heart"></i
+                  ><span>Sức khỏe </span>
+                </button>
+              </li>
+              <li>
+                <button id="btn-taikhoang">
+                  <i class="btn-icon fa-solid fa-users"></i
+                  ><span>Tài khoản</span>
+                </button>
+              </li>
+            </ul>
+          </aside>
+          <section class="account-bx">
+            <section class="main-accout-bx"></section>
+          </section>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="footer__addr">
+          <h1 class="footer__logo">DarkGreen.net</h1>
+
+          <h2>Contact</h2>
+
+          <address>
+            HuongLo3, Binh Tan, Tp.HCM<br />
+
+            <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+          </address>
+        </div>
+
+        <ul class="footer__nav">
+          <li class="nav__item">
+            <h2 class="nav__title">Media</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Online</a>
+              </li>
+
+              <li>
+                <a href="#">Print</a>
+              </li>
+
+              <li>
+                <a href="#">Alternative Ads</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item nav__item--extra">
+            <h2 class="nav__title">Technology</h2>
+
+            <ul class="nav__ul nav__ul--extra">
+              <li>
+                <a href="#">Hardware Design</a>
+              </li>
+
+              <li>
+                <a href="#">Software Design</a>
+              </li>
+
+              <li>
+                <a href="#">Digital Signage</a>
+              </li>
+
+              <li>
+                <a href="#">Automation</a>
+              </li>
+
+              <li>
+                <a href="#">Artificial Intelligence</a>
+              </li>
+
+              <li>
+                <a href="#">IoT</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav__item">
+            <h2 class="nav__title">Legal</h2>
+
+            <ul class="nav__ul">
+              <li>
+                <a href="#">Privacy Policy</a>
+              </li>
+
+              <li>
+                <a href="#">Terms of Use</a>
+              </li>
+
+              <li>
+                <a href="#">Sitemap</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="legal">
+          <p>&copy; 2023 DarkGreen.net Copyright.</p>
+
+          <div class="legal__links">
+            <span>Made with <span class="heart">♥</span> PhamNguyen</span>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./js/navbar-control.js"></script>
+    <!-- <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+    ></script> -->
+    <script src="./js/app.js"></script>
+  </body>
+</html>

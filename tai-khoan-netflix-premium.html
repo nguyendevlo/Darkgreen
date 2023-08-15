@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/app.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <title>Website</title>
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="header--content">
+        <nav></nav>
+        <div class="control-bx">
+          <!-- <button class="menu-btn-mb-tb" type="button">
+            <i class="fa-solid fa-bars"></i> Tùy chọn
+          </button> -->
+          <h5 class="Logo-icon">Dark<span>Green</span>.net</h5>
+          <div class="search-bx">
+            <input
+              id="search-input"
+              type="search"
+              name=""
+              placeholder="Nhập từ khóa tìm kiếm.."
+            />
+            <button id="btn_search">
+              <i class="search-icon fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div class="control-bx">
+          <ul class="navbar-list">
+            <li>
+              <button id="btn_adobe">
+                <img src="img/logo_icon/adobe.png" alt="" /><span>Adobe</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn_google">
+                <img src="img/logo_icon/Google__G__Logo.svg.webp" alt="" /><span
+                  >Google</span
+                >
+              </button>
+            </li>
+
+            <button id="btn_microsoft">
+              <img src="img/logo_icon/microsoft_318-566086.webp" alt="" /><span
+                >Microsoft</span
+              >
+            </button>
+
+            <li>
+              <button id="btn_netflix">
+                <img src="img/logo_icon/netflix.png.webp" alt="" /><span
+                  >Netflix</span
+                >
+              </button>
+            </li>
+            <li>
+              <button id="btn_spotify">
+                <img src="img/logo_icon/spotify.svg" alt="" /><span
+                  >Spotify</span
+                >
+              </button>
+            </li>
+            <li>
+              <button id="btn_antivirus">
+                <img src="img/logo_icon/gg.svg" alt="" /><span>Anti Virus</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn_vpns">
+                <img src="img/logo_icon/vpn.svg" alt="" /><span>VPNs</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn_canvas">
+                <img
+                  src="img/logo_icon/Canva_icon_2021.svg-150x150.png.webp"
+                  alt=""
+                /><span>Canvas</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn_dropbox">
+                <img
+                  src="img/logo_icon/1101px-Dropbox_Icon.svg-150x150.png"
+                  alt=""
+                /><span>Dropbox</span>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!-- header -->
+    <main>
+      <div class="wapper-top">
+        <div class="content-top-bg"></div>
+        <div class="content-top">
+          <div class="content-top-img">
+            <img src="../img/giaitri/Netflix-247x247.jpg.webp" alt="" />
+          </div>
+          <div class="content-top-ct">
+            <h4 class="content-top-ct-hd">
+                Tài khoản Netflix Premium
+            </h4>
+            <div class="content-top-price">
+                <h6 id="price_item"></h6>
+                <h6 id="price_item-del">
+                  <del>14,625,240đ</del>
+                </h6>
+            </div>
+            <div class="content-top-btn-title">Thời hạn</div>
+            <div class="content-top-btn-list">
+
+            </div>
+            <div class="content-top-lh">
+              <button>Mua ngay</button>
+            </div>
+          </div>
+          <div class="content-top-right">
+            <ul class="top-right-list">
+              <li>
+                <div class="bx-top">
+                  <i class="bx-top-icon bx bxs-package"></i>
+                  <div class="bx-top-ct">
+                    <h6>Giao hàng</h6>
+                    <span>Kích hoạt trên email chính chủ</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bx-top">
+                  <i class="bx-top-icon fa-solid fa-hourglass-start"></i>
+                  <div class="bx-top-ct">
+                    <h6>Thời gian giao hàng</h6>
+                    <span>10-30p</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bx-top">
+                  <i class="bx-top-icon fa-solid fa-user-shield"></i>
+                  <div class="bx-top-ct">
+                    <h6>Bảo hành</h6>
+                    <span>Trọn gói đăng ký</span>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bx-bottom">
+                  <div class="bx-bottom-hd">
+                    Thiết bị & nền tảng hổ trợ
+                    <ul class="bx-bottom-list">
+                      <li><i class="bx bx-laptop"></i></li>
+                      <li><i class="fa-solid fa-computer"></i></li>
+                      <li><i class="fa-solid fa-desktop"></i></li>
+                      <li><i class="fa-solid fa-tablet"></i></li>
+                      <li><i class="fa-solid fa-mobile-screen"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bx-bottom">
+                  <div class="bx-bottom-hd">
+                    Nền tảng hỗ trợ
+                    <ul class="bx-bottom-list">
+                      <li><i class="fa-brands fa-apple"></i></li>
+                      <li><i class="fa-brands fa-square-google-plus"></i></li>
+                      <li><i class="fa-brands fa-windows"></i></li>
+                      <li><i class="fa-brands fa-android"></i></li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="bx-bottom">
+                  <div class="bx-bottom-hd">
+                    Phương thức thanh toán
+                    <ul class="bx-bottom-list">
+                      <li>
+                        <img src="./img/logo_icon/MoMo_Logo.png" alt="" />
+                      </li>
+                      <li><img src="./img/logo_icon/images.png" alt="" /></li>
+                      <li>
+                        <img
+                          src="./img/logo_icon/Icon-Vietcombank.webp"
+                          alt=""
+                        />
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="content-center">
+          <div class="content-center-hd">
+            <h4><b>MÔ TẢ NGẮN</b><span> SẢN PHẨM</span></h4>
+          </div>
+          <div class="content-center-ders">
+            <ul>
+              <li>
+                Đăng nhập trên nhiều thiết bị khác nhau nhưng chỉ được sử dụng đồng thời trên 01 thiết bị
+              </li>
+              <li>Bạn có thể đổi tên Profile và đặt mã PIN cho Profile của mình</li>
+              <li>
+                Không chia sẻ cho người khác sử dụng
+              </li>
+              <li>
+                Không được đổi mật khẩu hay phương thức thanh toán trên tài khoản
+              </li>
+              <li>
+                Sau khi thanh toán thành công hệ thống sẽ gửi thông tin tài khoản về email cho bạn, nếu không nhận được bạn vui lòng kiểm tra các mục Spam và Promotion trong hộp thư của các bạn nhé!
+              </li>
+              
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__addr">
+        <h1 class="footer__logo">DarkGreen.net</h1>
+
+        <h2>Contact</h2>
+
+        <address>
+          HuongLo3, Binh Tan, Tp.HCM<br />
+
+          <a class="footer__btn" href="mailto:example@gmail.com">Email Us</a>
+        </address>
+      </div>
+
+      <ul class="footer__nav">
+        <li class="nav__item">
+          <h2 class="nav__title">Media</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Online</a>
+            </li>
+
+            <li>
+              <a href="#">Print</a>
+            </li>
+
+            <li>
+              <a href="#">Alternative Ads</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item nav__item--extra">
+          <h2 class="nav__title">Technology</h2>
+
+          <ul class="nav__ul nav__ul--extra">
+            <li>
+              <a href="#">Hardware Design</a>
+            </li>
+
+            <li>
+              <a href="#">Software Design</a>
+            </li>
+
+            <li>
+              <a href="#">Digital Signage</a>
+            </li>
+
+            <li>
+              <a href="#">Automation</a>
+            </li>
+
+            <li>
+              <a href="#">Artificial Intelligence</a>
+            </li>
+
+            <li>
+              <a href="#">IoT</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="nav__item">
+          <h2 class="nav__title">Legal</h2>
+
+          <ul class="nav__ul">
+            <li>
+              <a href="#">Privacy Policy</a>
+            </li>
+
+            <li>
+              <a href="#">Terms of Use</a>
+            </li>
+
+            <li>
+              <a href="#">Sitemap</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+
+      <div class="legal">
+        <p>&copy; 2023 DarkGreen.net Copyright.</p>
+
+        <div class="legal__links">
+          <span>Made with <span class="heart">♥</span> PhamNguyen</span>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer -->
+    <script src="./js/item.js"></script>
+    <script src="./js/navbar-control.js"></script>
+    <script>
+        const priceData = [
+        {
+            id: "btn_price1",
+            name: "01 tháng",
+            price: "65,000đ ",
+            discount: "260,000đ ",
+          },
+          {
+            id: "btn_price2",
+            name: "03 tháng",
+            price: "180,000đ",
+            discount: "780,000đ ",
+          },
+          {
+            id: "btn_price3",
+            name: "06 tháng",
+            price: "320,000đ",
+            discount: "1,560,000đ ",
+          },
+          {
+            id: "btn_price4",
+            name: "1 năm",
+            price: "499,000đ",
+            discount: "3,120,000đ ",
+          },
+        ];
+  
+        // Lặp qua mảng và thêm sự kiện click cho các nút
+        priceData.forEach((data) => {
+          let btn_item = document.createElement("button");
+          btn_item.classList.add(data.id);
+          btn_item.innerText = data.name;
+          let btn_list = document.getElementsByClassName(
+            "content-top-btn-list"
+          )[0];
+          btn_list.appendChild(btn_item);
+  
+          btn_item.addEventListener("click", () => {
+            updatePrice(data.price, data.discount);
+            setActiveButton(data.id);
+          });
+        });
+        // Hàm cập nhật giá
+        function updatePrice(price, discount) {
+          const priceElement = document.getElementById("price_item");
+          const discountElement = document.getElementById("price_item-del");
+  
+          priceElement.textContent = price;
+          discountElement.innerHTML = `<del>${discount}</del>`;
+        }
+  
+        // Hàm thêm lớp active và xóa lớp active từ các nút khác
+        function setActiveButton(activeId) {
+          priceData.forEach((data) => {
+            const button = document.getElementsByClassName(data.id)[0];
+            if (button) {
+              if (data.id === activeId) {
+                button.classList.add("active_btns-item");
+              } else {
+                button.classList.remove("active_btns-item");
+              }
+            }
+          });
+        }
+        const firstButton = document.getElementsByClassName(priceData[0].id)[0];
+        if (firstButton) {
+            const priceElement = document.getElementById("price_item");
+            const discountElement = document.getElementById("price_item-del");
+            priceElement.textContent = priceData[0].price;
+            discountElement.innerHTML = `<del>${priceData[0].discount}</del>`;
+          firstButton.classList.add("active_btns-item");
+        }
+      </script>
+  </body>
+</html>
