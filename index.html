@@ -7,11 +7,7 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
-    <!-- MDB -->
-    <!-- <link
-      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
-      rel="stylesheet"
-    /> -->
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -20,9 +16,69 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="assets/css/app.css" />
-    <title>Website</title>
+    <title>DarkGreen</title>
   </head>
   <body>
+    <div class="sidebar-mobile">
+      <div class="sidebar-mobile-left">
+        <aside class="navbar-control">
+          <h4><i class="fa-solid fa-filter"></i> Danh mục sản phẩm</h4>
+          <ul class="navbar-ct-bx">
+            <li>
+              <button id="btn-baomat">
+                <i class="btn-icon fa-solid fa-shield-halved"></i
+                ><span>Bảo mật</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-hoctap">
+                <i class="btn-icon fa-solid fa-graduation-cap"></i
+                ><span>Học Tập </span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-giaitri">
+                <i class="btn-icon fa-solid fa-gamepad"></i
+                ><span> Giải trí</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-lamviec">
+                <i class="btn-icon fa-solid fa-laptop"></i><span>Làm việc</span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-keykichhoat">
+                <i class="btn-icon bx bx-key"></i><span>Key kích hoạt </span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-nangcap">
+                <i class="btn-icon fa-solid fa-arrow-up-right-dots"></i
+                ><span>Nâng cấp </span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-suckhoe">
+                <i class="btn-icon fa-solid fa-hand-holding-heart"></i
+                ><span>Sức khỏe </span>
+              </button>
+            </li>
+            <li>
+              <button id="btn-taikhoang">
+                <i class="btn-icon fa-solid fa-users"></i><span>Tài khoản</span>
+              </button>
+              
+            </li>
+          </ul>
+          </aside>
+          <button id="btn-close-mobilebar">
+                    <i class="btn-icon fa-solid fa-xmark"></i></i><span>Thoát</span>
+          </button>
+      
+      </div>
+      <div class="sidebar-mobile-right"></div>
+    </div>
     <div class="wapper">
       <header class="header">
         <div class="header--content">
@@ -45,7 +101,11 @@
             </div>
           </div>
           <div class="control-bx">
+            <button id="btn_menu-bar" class="btn_menu-bar-list">
+              <i class="fa-solid fa-bars-staggered"></i><span>Menu</span>
+            </button>
             <ul class="navbar-list">
+              <li></li>
               <li>
                 <button id="btn_adobe">
                   <img src="img/logo_icon/adobe.png" alt="" /><span>Adobe</span>
@@ -120,7 +180,7 @@
             <h4>Account</h4>
             <div class="select_sortby">
               <button id="sortby_btn">
-                <h5>Sort By</h5>
+                <h5>Sắp xếp</h5>
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
               <div class="sortby-opt">
@@ -133,52 +193,54 @@
           </div>
         </section>
         <section class="content-main">
+          <button class="btn-menu-mb-tb"><p><i class="btn-icon fa-solid fa-bars"></i>Menu</p></button>
+
           <aside class="navbar-control">
             <h4><i class="fa-solid fa-filter"></i> Danh mục sản phẩm</h4>
             <ul class="navbar-ct-bx">
               <li>
-                <button id="btn-baomat">
+                <button id="btn-baomat-ds">
                   <i class="btn-icon fa-solid fa-shield-halved"></i
                   ><span>Bảo mật</span>
                 </button>
               </li>
               <li>
-                <button id="btn-hoctap">
+                <button id="btn-hoctap-ds">
                   <i class="btn-icon fa-solid fa-graduation-cap"></i
                   ><span>Học Tập </span>
                 </button>
               </li>
               <li>
-                <button id="btn-giaitri">
+                <button id="btn-giaitri-ds">
                   <i class="btn-icon fa-solid fa-gamepad"></i
                   ><span> Giải trí</span>
                 </button>
               </li>
               <li>
-                <button id="btn-lamviec">
+                <button id="btn-lamviec-ds">
                   <i class="btn-icon fa-solid fa-laptop"></i
                   ><span>Làm việc</span>
                 </button>
               </li>
               <li>
-                <button id="btn-keykichhoat">
+                <button id="btn-keykichhoat-ds">
                   <i class="btn-icon bx bx-key"></i><span>Key kích hoạt </span>
                 </button>
               </li>
               <li>
-                <button id="btn-nangcap">
+                <button id="btn-nangcap-ds">
                   <i class="btn-icon fa-solid fa-arrow-up-right-dots"></i
                   ><span>Nâng cấp </span>
                 </button>
               </li>
               <li>
-                <button id="btn-suckhoe">
+                <button id="btn-suckhoe-ds">
                   <i class="btn-icon fa-solid fa-hand-holding-heart"></i
                   ><span>Sức khỏe </span>
                 </button>
               </li>
               <li>
-                <button id="btn-taikhoang">
+                <button id="btn-taikhoang-ds">
                   <i class="btn-icon fa-solid fa-users"></i
                   ><span>Tài khoản</span>
                 </button>
@@ -193,7 +255,7 @@
       <!-- Footer -->
       <footer class="footer">
         <div class="footer__addr">
-          <h1 class="footer__logo">DarkGreen.net</h1>
+          <h1 class="footer__logo Logo-icon">Dark<span>Green</span>.net</h1>
 
           <h2>Contact</h2>
 
@@ -206,49 +268,44 @@
 
         <ul class="footer__nav">
           <li class="nav__item">
-            <h2 class="nav__title">Media</h2>
+            <h2 class="nav__title">Nổi bật</h2>
 
             <ul class="nav__ul">
               <li>
-                <a href="#">Online</a>
+                <a class="footer_link" href="#">Netflix</a>
               </li>
 
               <li>
-                <a href="#">Print</a>
+                <a class="footer_link" href="#">Google</a>
               </li>
 
               <li>
-                <a href="#">Alternative Ads</a>
+                <a class="footer_link" href="#">Giải Trí</a>
               </li>
             </ul>
           </li>
 
           <li class="nav__item nav__item--extra">
-            <h2 class="nav__title">Technology</h2>
+            <h2 class="nav__title">Bán chạy</h2>
 
             <ul class="nav__ul nav__ul--extra">
               <li>
-                <a href="#">Hardware Design</a>
+                <a class="footer_link" href="#">Microsoft</a>
               </li>
 
               <li>
-                <a href="#">Software Design</a>
+                <a class="footer_link" href="#">Canvas</a>
               </li>
 
               <li>
-                <a href="#">Digital Signage</a>
+                <a class="footer_link" href="#">Học Tập</a>
               </li>
 
               <li>
-                <a href="#">Automation</a>
+                <a class="footer_link" href="#">Nâng cấp</a>
               </li>
-
               <li>
-                <a href="#">Artificial Intelligence</a>
-              </li>
-
-              <li>
-                <a href="#">IoT</a>
+                <a class="footer_link" href="#">Nâng cấp</a>
               </li>
             </ul>
           </li>
@@ -258,15 +315,15 @@
 
             <ul class="nav__ul">
               <li>
-                <a href="#">Privacy Policy</a>
+                <a class="ft_link" href="#">Privacy Policy</a>
               </li>
 
               <li>
-                <a href="#">Terms of Use</a>
+                <a class="ft_link" href="#">Terms of Use</a>
               </li>
 
               <li>
-                <a href="#">Sitemap</a>
+                <a class="ft_link" href="#">Sitemap</a>
               </li>
             </ul>
           </li>

@@ -34,6 +34,16 @@ let btn_nangcap = document.getElementById('btn-nangcap')
 let btn_suckhoe = document.getElementById('btn-suckhoe')
 let btn_taikhoang = document.getElementById('btn-taikhoang')
 
+let btn_baomat_ds = document.getElementById('btn-baomat-ds')
+let btn_hoctap_ds = document.getElementById('btn-hoctap-ds')
+let btn_giaitri_ds = document.getElementById('btn-giaitri-ds')
+let btn_lamviec_ds = document.getElementById('btn-lamviec-ds')
+let btn_keykichhoat_ds = document.getElementById('btn-keykichhoat-ds')
+let btn_nangcap_ds = document.getElementById('btn-nangcap-ds')
+let btn_suckhoe_ds = document.getElementById('btn-suckhoe-ds')
+let btn_taikhoang_ds = document.getElementById('btn-taikhoang-ds')
+
+
 function formatNumberWithCommas(number) {
   return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
@@ -176,10 +186,11 @@ fetch(url)
     btn_Newest.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       sortby_btn.innerHTML = `
-        <h5>Mới nhất</h5>
+        <h5>Sắp xếp: mới nhất</h5>
           <i class="fa-solid fa-chevron-down"></i>
         `
       sortby_opt.classList.toggle('sortby-opt_active');
+      newset_array.reverse();
       newset_array.forEach((el, i) => {
         main_accout_bx.appendChild(createInnerCart(el));
       });
@@ -188,7 +199,7 @@ fetch(url)
     btn_low.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       sortby_btn.innerHTML = `
-        <h5>Gia Thap</h5>
+        <h5>Sắp xếp: giá thấp</h5>
           <i class="fa-solid fa-chevron-down"></i>
         `
       sortby_opt.classList.toggle('sortby-opt_active');
@@ -203,7 +214,7 @@ fetch(url)
     btn_hight.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       sortby_btn.innerHTML = `
-        <h5>Giá cao</h5>
+        <h5>Sắp xếp: giá cao</h5>
           <i class="fa-solid fa-chevron-down"></i>
         `
       sortby_opt.classList.toggle('sortby-opt_active');
@@ -255,8 +266,20 @@ fetch(url)
         main_accout_bx.appendChild(createInnerCart(el));
       })
     })
+    btn_baomat_ds.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      securityItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
     const educationItems = all_item_array.filter(item => item.Tag === "Học tập");
     btn_hoctap.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      educationItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
+    btn_hoctap_ds.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       educationItems.forEach((el, i) => {
         main_accout_bx.appendChild(createInnerCart(el));
@@ -269,8 +292,20 @@ fetch(url)
         main_accout_bx.appendChild(createInnerCart(el));
       })
     })
+    btn_lamviec_ds.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      workitems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
     const upgradeItems = all_item_array.filter(item => item.Tag === "Nâng cấp");
     btn_nangcap.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      upgradeItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
+    btn_nangcap_ds.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       upgradeItems.forEach((el, i) => {
         main_accout_bx.appendChild(createInnerCart(el));
@@ -283,8 +318,20 @@ fetch(url)
         main_accout_bx.appendChild(createInnerCart(el));
       })
     })
+    btn_suckhoe_ds.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      healthItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
     const accountItems = all_item_array.filter(item => item.Tag === "Tài khoản");
     btn_taikhoang.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      accountItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
+    btn_taikhoang_ds.addEventListener('click', () => {
       main_accout_bx.innerHTML = '';
       accountItems.forEach((el, i) => {
         main_accout_bx.appendChild(createInnerCart(el));
@@ -297,5 +344,23 @@ fetch(url)
         main_accout_bx.appendChild(createInnerCart(el));
       })
     })
+    btn_keykichhoat_ds.addEventListener('click', () => {
+      main_accout_bx.innerHTML = '';
+      keyItems.forEach((el, i) => {
+        main_accout_bx.appendChild(createInnerCart(el));
+      })
+    })
   });
 
+
+
+let sidebar_mobile = document.getElementsByClassName('sidebar-mobile')[0]
+let btn_menu_mb_tb = document.getElementsByClassName('btn-menu-mb-tb')[0]
+let btn_close_mobilebar = document.getElementById('btn-close-mobilebar')
+let sidebar_mobile_left = document.getElementsByClassName('sidebar-mobile-left')[0];
+btn_menu_mb_tb.addEventListener('click', () => {
+  sidebar_mobile.classList.add('display_unset-active')
+})
+sidebar_mobile_left.addEventListener('click', () => {
+  sidebar_mobile.classList.remove('display_unset-active')
+})
